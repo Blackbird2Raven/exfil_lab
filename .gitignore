@@ -1,0 +1,23 @@
+*.pcap
+*.pcapng
+*.json
+*.log
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Test data files (keep test_file.bin as it's safe zeros)
+# But ignore any captured pcaps
+capture.pcap
+chrome_traffic.pcap
+stealth_traffic.pcap
+ssh_traffic.pcap
